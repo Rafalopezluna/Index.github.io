@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>P3P2 HTML forms</title>
+	<!-- define el congunto de caracteres-->
+	<meta name="autor"content=UPSLP>
+	<link rel="icon" type="image/png" href="logo upslp.png">
+</head>
+<body>
+
+    <h1 style="text-align: center;">Venta en linea</h1>
+
+    <section> <!--primera seccion del cuestionario-->
+
+        <form action="" method="post" enctype="text/plain">
+
+            <fieldset>
+                <legend>Informacion general</legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="Nombre">Nombre</label><br>
+                            <input type="text" name="Nombre" id="Nombre" maxlength="25" placeholder="Nombre" title="Nombre del usuario" required>
+                        </td>
+                        <td>
+                            <label for="apellidoP">Apellido paterno</label><br>
+                            <input type="text" name="apellidoP" id="apellidoP" maxlength="25" placeholder="Apellido paterno" title="Apellido paterno">
+                        </td>
+                        <td>
+                            <label for="apellidoM">Apellido materno</label><br>
+                            <input type="text" name="apellidoM" id="apellidoM" maxlength="25" placeholder="Apellido materno" title="Apellido materno">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Nombre usuario">Nombre de usuario</label><br>
+                            <input type="text" name="Nombre de usuario" id="Nombre de usuario" maxlength="25" placeholder="Usuario" title="Usuario" required>
+                        </td>
+                        <td>
+                            <label for="pass">Contraseña</label><br>
+                            <input type="password" name="pass" id="pass" maxlength="25" placeholder="Contraseña" title="contraseña" required>
+                        </td>
+                        <td>
+                            <label for="nacimiento">Fecha de nacimiento</label><br>
+                            <input type="date" name="nacimiento" id="nacimiento">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </section>
+    <section> <!--segunda seccion del cuestionario-->
+        <form action="" method="post" enctype="text/plain">
+
+            <fieldset>
+                <legend>Datos de facturacion</legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="Pais">Pais</label><br>
+                            <select name="Pais" id="Pais" multiple>
+                                <option value="Mexico">Mexico</option>
+                                <option value="Canada">Canada</option>
+                                <option value="E.U.A">E.U.A</option>
+                                <option value="Argentina">Argentina</option>
+                            </select>
+                        </td>
+                        <td>
+                            <label for="Ciudad">Ciudad</label><br>
+                            <select name="Ciudad" id="Ciudad" multiple>
+                                <option value="San Luis Potosi">San Luis Potosi</option>
+                                <option value="Canticas">Canticas</option>
+                                <option value="chinameca">Chinameca</option>
+                                <option value="Cerritos">Cerritos</option>
+                                <option value="Rayon">RayonYork</option>
+                            </select>
+                        </td>
+                        <td>
+                            <label for="Calle">Calle</label>
+                            <input type="text" name="calle" id="calle" maxlength="50" placeholder="Calle" title="Calle">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Numero de casa">Numero de casa</label><br>
+                            <input type="number" name="Numero de casa" id="Numero de casa" maxlength="10" placeholder="Numero de casa" title="Numero de casa">
+                        </td>
+                        <td>
+                            <label for="Colonia">Colonia</label><br>
+                            <input type="text" name="Colonia" id="colonia" maxlength="50" placeholder="Colonia" title="Colonia">
+                        </td>
+                        <td>
+                            <label for="E-mail">E-mail</label><br>
+                            <input type="email" name="E-mail" id="E-mail" maxlength="E-mail" placeholder="E-mail">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="R.F.C">R.F.C</label><br>
+                            <input type="text" name="rfc" id="rfc" maxlength="13" placeholder="R.F.C" title="rfc" required>
+                        </td>
+                        <td>
+                            <label for="C.P.">C.P.</label><br>
+                            <input type="number" name="cp" id="cp" placeholder="C.P." title="cp">
+                        </td>
+                        <td>
+                            <input type="submit" name="Enviar" id="Enviar">
+                            <input type="reset" name="Restablecer" id="Restablecer">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+
+
+        </form>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
+
