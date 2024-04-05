@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(241, 238, 212);
+    margin: 14px;
+
+}
+#logo{
+    margin:none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: x-large;
+}
+.menu:hover{
+    background-color: rgb(101, 122, 64);
+    color: rgb(233, 219, 98);
+}
+.menu{
+    list-style: none;
+    margin-left: 3px;
+    overflow: hidden;
+    background-color: rgb(158, 177, 126);
+    float:inline-start;
+    font-size: larger;
+    color: rgb(231, 228, 208);
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    text-decoration: none;
+    padding: 12px;
+    width: 200px; 
+     
+}
+.container{
+    display: flex;
+    float:left;
+    
+}
+.text{
+    flex: 1;
+}
+.form{
+    width: 800px;
+    text-align: center;
+}
+h1{
+    
+    background-color: rgb(103, 119, 76);
+    color: rgb(231, 228, 208);
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 250px;
+}
+input{
+    border: solid 2px #000000;
+    padding: 10px;
+    margin-left: -80px;
+    margin-bottom: 10px;
+    width: 200px;
+
+}
+input:focus{
+    border: solid 2px #ddc583;
+}
+.bt{
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    background-color:rgba(103, 119, 76, 0.658);
+    color: rgb(231, 228, 208);
+}
+.bt:hover{
+    background-color:rgba(243, 241, 114, 0.699);
+    color: rgb(39, 38, 35);    
+}
+.bt:active{
+    background-color:rgba(208, 211, 16, 0.699);
+    color: rgb(39, 38, 35); 
+}
+
+footer{
+    background-color: rgb(158, 177, 126);
+    text-align: center;
+    position:static;
+    float: left;
+    width: 100%;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+    padding: 6px;
+    color: rgb(231, 228, 208);
+
+}
