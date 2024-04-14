@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #565cad;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #principal {
+    max-width: 600px;
+    margin: 200px auto;
+    padding: 20px;
+    background-color: #7ebbe48c;
+    border-radius: 8px;
+    box-shadow:  0 5px 10px #d766db;
+    text-align: center;
+  }
+  
+  input  {
+    background-color: #d766db;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  input:hover {
+    background-color: #a163d4;
+  }
+  
