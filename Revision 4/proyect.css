@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+}
+body{
+    background-color:#E7DFD8 ;
+}
+
+.header{
+    background-color: #B0A092;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+.header .logo{
+    cursor: pointer;
+}
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.1);
+
+}
+.header .nav-links{
+    list-style: none;
+}
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+.header .nav-links a{
+    font-size: 28;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+.header .nav-links li a:hover{
+    color: #574533;
+}
+.header .btn button{
+    font-weight: 700;
+    color: black;
+    padding: 9px 25px;
+    background-color: #D1D3D4;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.header .btn button:hover{
+    background-color: #574533;
+    color: #B0A092;
+    transform: scale(1.1);
+}
+.datos{
+    
+    background-color: #B0A092;
+    padding: 15px 25px;
+    width: 1000;
+    margin: 0 auto;
+    border: none;
+    border-radius: 50px;
+    box-shadow: #574533 5px 5px;
+}
+.portfolio{
+    background-color: #B0A092;
+    color: #574533;
+    padding: 50px 20px;
+    border-radius: 25px;
+    box-shadow: #574533 0 6px;
+}
+.portfolio .galeria{
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.portfolio .galeria .proyecto{
+    position:relative;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+}
+img{
+    width: 50%;
+    margin-left: 23%;
+}
+video{
+    width: 50%;
+    margin-left: 23%;
+}
