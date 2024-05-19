@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Oswald:wght@200..700&display=swap');
+
+body {
+    background-color: #f73fade8;
+    padding: 20px; 
+}
+
+h1 {
+    font-family: Danfo;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0px 6px 0 #3c7fcc;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+h2 {
+    font-family: Danfo;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0px 6px 0 #3c7fcc;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.container{
+    margin: 0, auto;
+}
+
+.formulario{
+    background-color: #63afff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    font-family: Oswald;
+    box-shadow: 5px 6px #870348;
+}
+
+.formulario label {
+    font-size: 28px;
+    font-weight: 600;
+    color: #ffffff;
+    text-shadow: 0px 5px 0 #3c7fcc;
+}
+
+.formulario input[type="text"] {
+    font-size: 14px;
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.formulario button {
+    font-size: 20px;
+    font-family: Oswald;
+    font-weight: 600;
+    font-style: italic;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 40%;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: #0056b3;
+}
+
+.resultado{
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: x-large;
+    font-family: Oswald;
+    font-weight: 500;
+    border-radius: 10px;
+    background-color: #63afff;
+    color: #ffffff;
+    text-shadow:0px 4px #0056b3;
+    box-shadow: 5px 6px #870348;
+}
+
